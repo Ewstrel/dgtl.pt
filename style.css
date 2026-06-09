@@ -712,7 +712,7 @@ body {
     }
 
     #network-canvas {
-        height: 100%;
+        height: calc(100% + 220px);
     }
 
     .hero-container {
