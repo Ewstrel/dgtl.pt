@@ -741,6 +741,16 @@ document.addEventListener('DOMContentLoaded', () => {
         subscribeForm.addEventListener('submit', (e) => {
             e.preventDefault();
             
+            // Honeypot check for spam prevention
+            const honeypot = document.getElementById('subscribe-honeypot');
+            if (honeypot && honeypot.value) {
+                console.warn('[DGTL Newsletter] Bot submission intercepted.');
+                // Simulate success state for the bot so it doesn't try to retry, but don't send anything
+                if (submitBtn) submitBtn.classList.remove('loading');
+                if (modalContainer) modalContainer.classList.add('success');
+                return;
+            }
+            
             const emailValue = subscribeEmail.value.trim();
             
             // Validation check

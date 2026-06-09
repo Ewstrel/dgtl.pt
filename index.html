@@ -541,6 +541,10 @@
                         <input type="email" id="subscribe-email" class="modal-input" placeholder="Enter your email address" required autocomplete="email">
                         <span class="error-message" id="email-error"></span>
                     </div>
+                    <!-- Honeypot field for spam prevention -->
+                    <div style="display: none;" aria-hidden="true">
+                        <input type="text" id="subscribe-honeypot" name="dgtl_username" tabindex="-1" autocomplete="off">
+                    </div>
                     <button type="submit" class="modal-submit-btn">
                         <span class="btn-text">Subscribe</span>
                         <span class="btn-spinner"></span>
