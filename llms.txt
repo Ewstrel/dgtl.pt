@@ -1,0 +1,15 @@
+# DGTL: Digital Intelligence for Portugal
+
+Independent research on technology, economy, and society in Portugal.
+
+## Core Research Areas
+- **Tourism Intelligence** ( Lisbon visitor flows, seasonality, and demand vectors)
+- **Energy Transition** (Portugal's digital power grid and transition tracking)
+- **Housing & Spatial Density** (Urban affordability, spatial statistics, and demographics)
+- **Public Services** (Digital transformation audit across civic institutions)
+- **AI Adoption** (Economic impact analysis and tensor weights research)
+- **Demographics** (Population trends and regional cohort delta monitoring)
+
+## Contacts & Details
+- Website: https://dgtl.pt/
+- Email: hello@dgtl.pt
